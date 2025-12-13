@@ -4,10 +4,10 @@ services:
     env: node
     region: Frankfurt
     plan: free
-    buildCommand: yarn install && yarn build
+    buildCommand: yarn install
     startCommand: yarn start
-    healthCheckPath: /health
+    healthCheckPath: /
     envVars:
       - key: NODE_ENV
         value: production
-        
+
