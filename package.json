@@ -4,7 +4,6 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "s.js",
     "test": "npx nodemon --delay 500 --exec ts-node lib/utils.js",
     "t": "tsc",
     "start": "pm2 start ecosystem.config.js && pm2 logs my-app ",
@@ -137,3 +136,4 @@
     ]
   }
 }
+
