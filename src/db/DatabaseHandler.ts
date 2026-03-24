@@ -52,10 +52,8 @@ interface UserDocument {
   ban?: boolean;
   downloadCount?: number;
   lastDownload?: number;
-  caughtPokemons?: CaughtPokemon[];
   lastDaily?: number;
   lastRob?: number;
-  claimedCards?: ClaimedCard[];
   profilePicture?:string
   black_market?: {
     boost: BlackMarketBoost;
